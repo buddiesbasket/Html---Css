@@ -28,5 +28,5 @@ background: teal;
 ;
 }
 .container:hover .content{
-    bottom: 0%;
+    bottom: 0;
 }
