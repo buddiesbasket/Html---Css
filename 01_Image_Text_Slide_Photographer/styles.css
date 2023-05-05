@@ -1,0 +1,32 @@
+body{
+background: teal;
+}
+.container{
+    width: 300px;
+    height: 410px;
+    margin: 100px auto;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+.container:hover img{
+    transform: translateY(-25%);
+}
+.container .content{
+    position: absolute;
+    bottom: -41%;
+    color: white;
+    padding: 10px;
+    background: rgba(0,0,0,1);
+    transition: all 0.5s;
+;
+}
+.container:hover .content{
+    bottom: 0%;
+}

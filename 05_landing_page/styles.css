@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.text-primary{
+    color: aquamarine;
+    font-weight: bolder;
+}
+.text-secondary{
+    color: lightskyblue;
+    font-weight: bolder;
+}
+.btn-primary{
+    background-color: aqua;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px white;
+}
+.btn-primary:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+/*---------- Main navbar-----------*/
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.main-nav ul li{
+
+}
+.main-nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.main-nav ul li a:hover{
+    color: lightskyblue;
+}
+.main-nav img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid lightskyblue;
+    border-radius: 50%;
+    background: aquamarine;
+    box-shadow: 0 0 5px white;
+}
+.main-nav h1{
+    display: flex;
+    margin-left: -54%;
+    padding: 5px;
+}
+.container{
+    background: white url("img/pexels-pixabay-256150.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.lead{
+    font-size: 20px;
+}
+.container-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container-wrapper h1{
+    font-size: 50px;
+    color: aquamarine;
+}

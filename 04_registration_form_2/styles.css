@@ -1,0 +1,61 @@
+.register-div{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+}
+.fa-circle-user{
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    color: #e19cdb;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    margin: -50px auto 20px 35%;
+    border: 5px solid deeppink;
+}
+.register-div h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-control{
+    padding: 5px;
+    margin: 5px auto;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 280px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    border-bottom: 3px solid #e19cdb;
+}
+::placeholder{
+    color: #e19cdb;
+}
+.form-control option{
+    color: #e19cdb;
+    margin: auto;
+}
+.register-btn{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 10px black;
+}
