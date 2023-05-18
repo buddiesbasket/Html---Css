@@ -6,11 +6,11 @@ body{
     font-family: Arial, sans-serif;
 }
 .text-primary{
-    color: aquamarine;
+    color: lightskyblue;
     font-weight: bolder;
 }
 .text-secondary{
-    color: lightskyblue;
+    color: aquamarine;
     font-weight: bolder;
 }
 .btn-primary{
@@ -40,10 +40,6 @@ body{
 .main-nav ul{
     display: flex;
     list-style-type: none;
-
-}
-.main-nav ul li{
-
 }
 .main-nav ul li a{
     text-decoration: none;
@@ -67,9 +63,10 @@ body{
 }
 .main-nav h1{
     display: flex;
-    margin-left: -54%;
     padding: 5px;
 }
+
+/*-------------Landing Area-----------*/
 .container{
     background: white url("img/pexels-pixabay-256150.jpg") no-repeat scroll center;
     background-size: cover;
@@ -92,4 +89,12 @@ body{
 .container-wrapper h1{
     font-size: 50px;
     color: aquamarine;
+}
+/* ------------ Media Query ----------- */
+@media  (max-width: 500px) {
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
 }
