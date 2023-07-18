@@ -165,9 +165,11 @@ h1{
     
 }
 .form{
+    display: flex;
+    flex-direction: column;
     width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    height: 420px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     position: absolute;
     margin-top: 120px;
     left: 870px;
@@ -187,7 +189,7 @@ h1{
 .form input{
     width: 240px;
     height: 35px;
-    margin-top: 30px;
+    margin-top: 15px;
     background: transparent;
     border-bottom: 1px solid #ff7200;
     border-top: none;
@@ -208,9 +210,9 @@ h1{
     height: 40px;
     background: #ff7200;
     border: none;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-radius: 10px;
 }
 .btnn a{
@@ -219,7 +221,7 @@ h1{
     cursor: pointer;
     font-weight: bold;
 }
-.form .link{
+.link{
     color: white;
     font-size: 17px;
     text-align: center;
@@ -231,7 +233,7 @@ a{
 }
 .suh{
     text-align: center;
-    margin-left: 77px;
+    margin-top: 0%;
 }
 .liw{
     padding-top: 15px;
