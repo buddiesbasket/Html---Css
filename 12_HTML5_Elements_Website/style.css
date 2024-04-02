@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+header , footer{
+    background: white url("../img/3492867.gif") scroll no-repeat top;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+footer{
+    line-height: 10px;
+}
+nav{
+    background-color: darkcyan;
+    overflow: hidden;
+    padding-left: 300px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    background-color: rgb(13, 94, 94);
+    border-radius: 50px;
+}
+nav ul li a.active{
+    background-color: rgb(13, 94, 94);
+    border-radius: 50px;
+}
+aside{
+    background-color:  rgb(16, 210, 210);
+    float: left;
+    width: 200px;
+    text-align: center;  
+    overflow-y: scroll;
+    height: 444px;
+}
+aside ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+aside ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    font-size: 20px;
+    padding: 15px 25px;
+    display: block;
+}
+aside ul li a:hover{
+    background-color: darkcyan;
+    border-radius: 50px;
+}
+main{
+    margin-left: 200px;
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+    border-left: 2px solid black;
+}
+section{
+    margin-left: 200px;
+    background-color: bisque;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 2px solid black;
+}
+section h2{
+    text-align: center;
+}
+details{
+    background-color: chocolate;
+    padding: 10px;    
+    border-radius: 20px;
+    margin: 10px;
+}
+summary{
+    padding: 10px;
+}
+article{
+    padding: 10px;
+    margin-right: 10px;
+}
+article img{
+    margin-right: 20px;
+    border-radius: 20px;
+}
